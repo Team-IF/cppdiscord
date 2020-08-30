@@ -1,10 +1,11 @@
 #ifndef CPPDISCORD_GUILD_USER_H
 #define CPPDISCORD_GUILD_USER_H
 
-#include "user.h"
+#include "../user.h"
 
-class guild_user : public user {
-
+class guild_user{
+private:
+    user user;
 };
 
 

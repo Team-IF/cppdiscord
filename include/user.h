@@ -2,8 +2,8 @@
 #define CPPDISCORD_USER_H
 
 #include <string>
-#include "user_type.h"
-#include "status.h"
+#include "enums/user_type.h"
+#include "enums/status.h"
 
 using namespace std;
 
