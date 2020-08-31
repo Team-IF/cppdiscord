@@ -1,0 +1,12 @@
+#ifndef CPPDISCORD_VERIFICATION_LEVEL_H
+#define CPPDISCORD_VERIFICATION_LEVEL_H
+
+enum verify_level {
+    NONE = 0,
+    LOW = 1,
+    MEDIUM = 2,
+    HIGH = 3,
+    VERY_HIGH = 4
+};
+
+#endif //CPPDISCORD_VERIFICATION_LEVEL_H

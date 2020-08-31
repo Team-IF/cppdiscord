@@ -1,0 +1,9 @@
+#ifndef CPPDISCORD_NOTIFY_LEVEL_H
+#define CPPDISCORD_NOTIFY_LEVEL_H
+
+enum notify_level {
+    ALL_MESSAGES = 0,
+    ONLY_MENTIONS = 1
+};
+
+#endif //CPPDISCORD_NOTIFY_LEVEL_H
